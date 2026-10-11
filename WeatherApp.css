@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+#error{
+    text-align: left;
+    margin-left: 20px;
+    color: rgb(130, 44, 44);
+    font-size: 18px;
+    display: none;
+    padding-bottom: 10px ;
+}
+.container{
+    margin: auto;
+    width: 400px;
+    margin-top: 20px;
+    min-height:200px;
+    border-radius: 5px;
+    text-align: center;
+    background: linear-gradient(120deg, rgb(70, 196, 70), rgb(89, 41, 167));
+}
+
+.container > h2{
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 10px;
+}
+.search input{
+    width:  80%;
+    height: 40px;
+    border-radius: 20px;
+    padding-left:10px ;
+    border: none ;
+    
+}
+.search #btn{
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    border: none ;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.weather{
+    color: #fff;
+}
+.weather #sign{
+    font-size: 100px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: #fff;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px ;
+}
+.temp{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.city{
+    margin-top: 0px;
+}
+.details i{
+    font-size: 30px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.col p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.humidity, .wind{
+    font-size: larger;
+}
+.weather{
+    display: none;
+}
+
+@media (max-width:420px) {
+    .container{
+        width: 350px;
+    }
+
+    .details{
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width:370px) {
+    .container{
+        width: 95%;
+    }
+    .search input{
+        width: 70%;
+    }
+
+    .weather #sign{
+        font-size: 70px;
+    }
+
+    .temp{
+        margin-top: 0px;
+    }
+
+    .container > h2{
+        margin-bottom: 0px;
+    }
+
+    .search input{
+        height: 30px;
+    }
+
+    .search #btn{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width:310px) {
+    .container{
+        width: 90%;
+    }
+    .details{
+        font-size: 12px;
+    }
+
+    .details i{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+}
