@@ -4,6 +4,7 @@ body{
 *{
     box-sizing: border-box;
 }
+
 #error{
     text-align: left;
     margin-left: 20px;
