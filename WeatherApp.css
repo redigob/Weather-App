@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     height: 100vh;
-    background-color: #719f62e0;
+    background:linear-gradient(150deg,#cbefbee0,#538d3fe0,#184806e0) ;
 }
 *{
     box-sizing: border-box;
